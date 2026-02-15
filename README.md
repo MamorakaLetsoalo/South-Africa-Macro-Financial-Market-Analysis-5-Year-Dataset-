@@ -1,7 +1,5 @@
 # South-Africa-Macro-Financial-Market-Analysis-5-Year-Dataset
 
-#Project Overview
-
 This project builds a 5-year integrated macro-financial dataset for South Africa, combining:
 
 📈 FTSE/JSE All Share Index (daily)
@@ -15,17 +13,17 @@ This project builds a 5-year integrated macro-financial dataset for South Africa
 
 The objective is to analyze the relationship between macroeconomic indicators, global commodities, currency movements, and South Africa’s equity market performance.
 
-#This repository includes:
+This repository includes:
 
 Python data collection & transformation script
 Clean merged dataset (CSV)
 Power BI dashboard structure
 Case study framework
  
-#How We Got the Data:
+How We Got the Data:
 The dataset was built using publicly available APIs and financial data sources.
 
-#1.Market Data (Daily)
+1.Market Data (Daily)
 Source: Yahoo Finance via yfinance
 
 Pulled using Python:
@@ -44,7 +42,7 @@ Daily High
 Daily Low
 rading Volume
 
-#2.Macroeconomic Data (Annual)
+2.Macroeconomic Data (Annual)
 Source: World Bank Open Data API
 Country Code: ZAF (South Africa)
 
@@ -57,7 +55,7 @@ Real Interest Rate (%)	FR.INR.RINR
 World Bank macro data is annual, so:
 Annual values were forward-filled to daily frequency,this allows alignment with daily market data
 
-#3.Data Processing
+3.Data Processing
 Steps performed:
 Download daily financial data
 Download macroeconomic data
@@ -68,7 +66,7 @@ Export clean dataset to CSV
 
 Final output:south_africa_complete_dataset.csv
 
-#📊 What Analysis Can Be Performed?
+📊 What Analysis Can Be Performed?
 
 This dataset enables multiple levels of financial and macroeconomic analysis.
 
